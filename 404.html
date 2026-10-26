@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>스피드모터스</title>
+  <script>
+    // 잘못된 주소로 들어오면 홈(index.html)으로 이동
+    var base = location.pathname.split('/').slice(0, location.hostname.endsWith('github.io') ? 2 : 1).join('/') + '/';
+    location.replace(base);
+  </script>
+</head>
+<body style="background:#0D0F10"></body>
+</html>
